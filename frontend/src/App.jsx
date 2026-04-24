@@ -1,7 +1,7 @@
 import { useState, useCallback } from "react";
 
 // ── Config ─────────────────────────────────────────────────────────────────
-const API_URL = "http://localhost:3001/bfhl";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:3001/bfhl";
 
 const SAMPLE_INPUTS = [
   { label: "Basic Tree", value: '["A->B", "A->C", "B->D"]' },
