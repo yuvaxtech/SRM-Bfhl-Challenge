@@ -7,9 +7,9 @@ const { parseAndClassify } = require("../utils/validator");
 const { processEdges } = require("../utils/treeBuilder");
 
 // Static user info — replace with real values before submission
-const USER_ID = "srm_student_001";
-const EMAIL_ID = "student@srmist.edu.in";
-const COLLEGE_ROLL_NUMBER = "RA2111003010001";
+const USER_ID = "yuvarajk_11062006";
+const EMAIL_ID = "yk1233@srmist.edu.in";
+const COLLEGE_ROLL_NUMBER = "RA2311008050014";
 
 /**
  * POST /bfhl
